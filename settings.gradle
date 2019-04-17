@@ -1,0 +1,6 @@
+rootProject.name = 'sms'
+include 'sms-model'
+include 'sms-dao'
+include 'sms-service'
+include 'sms-app'
+

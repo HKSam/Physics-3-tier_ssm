@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.sms'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":sms-model")
+    compile project(":sms-dao")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
